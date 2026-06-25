@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# venv (uv가 만드는 가상환경 디렉터리)
+.venv/
+
+# FastAPI / 일반 서버 관련
+*.log
+*.sqlite
+*.sqlite3
+*.db
+
+# Env / Secrets
+.env
+.env.local
+.env.*.local
+
+# Node (루트 turbo/pnpm 실행용 — client/server 자체와는 무관하지만 루트에 필요)
+node_modules/
+.turbo/
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
