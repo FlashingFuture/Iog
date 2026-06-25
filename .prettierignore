@@ -1,0 +1,5 @@
+apps/client/
+apps/server/
+.turbo/
+node_modules/
+pnpm-lock.yaml
