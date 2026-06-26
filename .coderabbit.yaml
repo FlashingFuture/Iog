@@ -1,0 +1,12 @@
+language: "ko-KR"
+reviews:
+  path_instructions:
+    - path: "apps/**/*.py"
+      instructions: |
+        - PEP 8 기반, 최대 줄 길이 100자
+        - Ruff 규칙 준수
+        - 함수는 한 가지 일만 하도록 분리
+        - 에러를 silent하게 삼키지 않는다 (빈 except 금지)
+        - 타입 힌트를 적극 사용한다
+  auto_review:
+    enabled: true
