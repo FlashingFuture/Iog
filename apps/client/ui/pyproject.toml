@@ -1,0 +1,8 @@
+[project]
+name = "iog-client-ui"
+version = "0.1.0"
+description = "IOG client UI (pywebview shell for background tracker monitoring)"
+requires-python = ">=3.12"
+dependencies = [
+    "pywebview>=6.2.1",
+]
